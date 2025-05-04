@@ -35,7 +35,7 @@ export async function generateRAGContext(
     topK = 5,
     includeData = true,
     useReranking = true,
-    cohereModel = 'rerank-english-v2.0',
+    cohereModel = 'rerank-english-v3.0',
     relevanceThreshold = 0.1
   } = options;
 

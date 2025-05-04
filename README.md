@@ -71,7 +71,6 @@ To use the RAG capabilities of this chatbot, you need an Upstash Vector database
     *   Once the index is created, navigate to its details page in the Upstash Console.
     *   Under the "Details" tab, you will find your **REST URL** and **Read/Write Token** under "Connect to your index" section.
     *   Click the copy icons to copy these values.
-    *   ![](docs/images/upstash-console-index-details.png)
 
 5.  **Add Credentials to Environment Variables**:
     *   **For Local Development**: Open your project's `.env.local` file (or create one by copying `.env.example`). Add or update the following lines with the credentials you copied:
